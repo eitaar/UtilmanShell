@@ -13,6 +13,7 @@ Combine with [YellowKey](https://github.com/Nightmare-Eclipse/YellowKey) to obta
   - `SeIncreaseQuotaPrivilege`
   - `SeTcbPrivilege`
 - A user must be logged into the console session (winlogon must be present on the active desktop)
+- The program must be executed with SYSTEM privileges.
 
 ---
 
