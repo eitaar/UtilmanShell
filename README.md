@@ -1,4 +1,4 @@
-# SessionSpawner
+# UtilmanShell
 
 Spawns a SYSTEM-level command prompt on the active console session's desktop by duplicating winlogon.exe's primary token.
 
@@ -20,7 +20,7 @@ Combine with [YellowKey](https://github.com/Nightmare-Eclipse/YellowKey) to obta
 Compile with MSVC:
 
 ```bat
-cl /EHsc SessionSpawner.cpp /link wtsapi32.lib userenv.lib advapi32.lib
+cl /EHsc UtilmanShell.cpp /link wtsapi32.lib userenv.lib advapi32.lib
 ```
 
 ---
