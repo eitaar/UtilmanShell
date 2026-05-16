@@ -17,7 +17,7 @@ Combine with [YellowKey](https://github.com/Nightmare-Eclipse/YellowKey) to obta
 
 ## Build
 
-Compile with MSVC:
+if you can't trust the uploaded exe file, compile with Developer Command Prompt for VS 2022:
 
 ```bat
 cl /EHsc UtilmanShell.cpp /link wtsapi32.lib userenv.lib advapi32.lib
